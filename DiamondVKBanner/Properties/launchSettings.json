@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "DiamondVKBanner": {
+      "commandName": "Project",
+      "commandLineArgs": "*debug *ginterval 1",
+      "environmentVariables": {
+        "settings file": "../../../config.json"
+      }
+    }
+  }
+}

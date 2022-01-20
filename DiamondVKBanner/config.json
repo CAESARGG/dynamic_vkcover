@@ -1,0 +1,50 @@
+[ 
+  {
+    "groups": [ 
+      {
+        "token": "",
+        "group_id":  123
+      }
+    ],
+    "blank_image": [ "resources/.png" ], 
+    "render_set": { 
+      "text_color_r": 30, 
+      "text_color_g": 63, 
+      "text_color_b": 98, 
+      "render_x": 2168.6, 
+      "render_y": 601, 
+      "render_angle": 0, 
+      "font_size": 39.1, 
+      "font": "resources/.ttf"
+    },
+    "provider": { 
+      "url": "",
+      "selector": "$[*].players", 
+      "update_interval": 5 
+    }
+  },
+  {
+    "groups": [ 
+      {
+        "token": "",
+        "group_id": 123
+      }
+    ],
+    "blank_image": "resources/.png",
+    "render_set": { 
+      "text_color_r": 255, 
+      "text_color_g": 255, 
+      "text_color_b": 255, 
+      "render_x": 1504.5, 
+      "render_y": 556.5, 
+      "render_angle": -3.75, 
+      "font_size": 50, 
+      "font": "resources/.otf"
+    },
+    "provider": { 
+      "url": "", 
+      "selector": "$.players",
+      "update_interval": 5
+    }
+  }
+]

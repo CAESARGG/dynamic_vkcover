@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Diamond VK Banner</PackageId>
+    <Authors>Diamond Developers</Authors>
+    <Product>Diamond VK Banner</Product>
+    <Copyright>Diamond RolePlay © 2020</Copyright>
+    <PackageIcon>новая иконка группы дрп.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>Git</RepositoryType>
+    <NeutralLanguage>ru-RU</NeutralLanguage>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyName>DiamondVKBanner</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="VkNet" Version="1.49.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\d6000\Desktop\новая иконка группы дрп.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
